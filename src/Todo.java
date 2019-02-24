@@ -13,6 +13,10 @@ Tasks:
 6. complete ShapeTest CircleTest method
 7. complete ShapeTest ShapeToStringTest method
 8. complete ShapeTest ComparePerimeterTest method
+9. complete Polygon getPerimeter method
+10. complete EquilateralTriangle constructor
+11. complete EquilateralTriangle getArea method;
+12. complete EquilateralTriangle getShapeType method
 
 Estimated Time (minutes):
 1. 10
@@ -23,6 +27,10 @@ Estimated Time (minutes):
 6. 7
 7. 4
 8. 10
+9. 5
+10. 5
+11. 2
+12. 1
 
 Actual Time (minutes):
 1. 10
@@ -33,5 +41,9 @@ Actual Time (minutes):
 6. 7
 7. 4
 8. 20
+9. 3
+10. 7
+11. 2
+12. 1
 
 */}
