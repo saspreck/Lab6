@@ -95,6 +95,7 @@ public abstract class Shape implements Comparable<Shape>
 	@Override
 	public int compareTo(Shape s)
 	{
+		// compares the area of the two shapes and return whether the first or second is larger
 		int count = 0;
 		if (getArea() > s.getArea()) {
 			count = 1;
@@ -102,6 +103,7 @@ public abstract class Shape implements Comparable<Shape>
 		else if (getArea() < s.getArea()) {
 			count = -1;
 		}
+		// if shapes have equal areas the compare perimeters
 		else if (getArea() == s.getArea()) {
 			if (getPerimeter() > s.getPerimeter()) {
 				count = 1;
