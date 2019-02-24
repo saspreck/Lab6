@@ -17,6 +17,11 @@ Tasks:
 10. complete EquilateralTriangle constructor
 11. complete EquilateralTriangle getArea method;
 12. complete EquilateralTriangle getShapeType method
+13. complete Trapezoid constructor
+14. complete Trapezoid getShapeType method
+15. complete Circle constructor
+16. complete Circle getPerimeter method
+17. complete Circle getShapeType method
 
 Estimated Time (minutes):
 1. 10
@@ -31,6 +36,11 @@ Estimated Time (minutes):
 10. 5
 11. 2
 12. 1
+13. 10
+14. 1
+15. 5
+16. 5
+17. 1
 
 Actual Time (minutes):
 1. 10
@@ -45,5 +55,9 @@ Actual Time (minutes):
 10. 7
 11. 2
 12. 1
-
+13. 7
+14. 1
+15. 10
+16. 5
+17. 1
 */}

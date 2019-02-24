@@ -96,8 +96,8 @@ public class ShapeTest
 	public void CircleTest()
 	{
 		Shape cir = new Circle("Circle1", 4.0);
-		Assert.assertEquals("Circle area incorrect.", 3.14 * 16, cir.getArea(), 0.0001);
-		Assert.assertEquals("Circle perimeter incorrect.", 3.14 * 8, cir.getPerimeter(), 0.0001);
+		Assert.assertEquals("Circle area incorrect.", Math.PI * 16, cir.getArea(), 0.0001);
+		Assert.assertEquals("Circle perimeter incorrect.", Math.PI * 8, cir.getPerimeter(), 0.0001);
 		Assert.assertEquals("Circle type incorrect.", "Circle", cir.getShapeType());
 		Assert.assertEquals("Shape ID incorrect.", "Circle1", cir.getId());
 	}
