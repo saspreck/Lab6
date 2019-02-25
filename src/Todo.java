@@ -22,6 +22,11 @@ Tasks:
 15. complete Circle constructor
 16. complete Circle getPerimeter method
 17. complete Circle getShapeType method
+18. complete Rectangle constructor
+19. complete Rectangle getArea method
+20. complete Rectangle getShapeType method
+21. complete Square constructor 
+22. complete Square getShapeType method
 
 Estimated Time (minutes):
 1. 10
@@ -41,6 +46,11 @@ Estimated Time (minutes):
 15. 5
 16. 5
 17. 1
+18. 7
+19. 5
+20. 1
+21. 3
+22. 1
 
 Actual Time (minutes):
 1. 10
@@ -60,4 +70,10 @@ Actual Time (minutes):
 15. 10
 16. 5
 17. 1
+18. 6
+19. 2
+20. 1
+21. 2
+22. 1
+
 */}

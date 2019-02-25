@@ -19,9 +19,7 @@ public class Circle extends Ellipse
 	 */
 	public Circle(String id, double radius)
 	{
-		super(id);
-		this.minorAxis = radius;
-		this.majorAxis = radius;
+		super(id, radius, radius);
 	}
 
 	/**
