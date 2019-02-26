@@ -31,6 +31,16 @@ Tasks:
 24. complete ShapeAreaComparator equals method
 25. complete ShapePerimeterComparator compare method
 26. complete ShapePerimeterComparator equals method
+27. complete ShapeSorter constructor
+28. complete ShapeSorter addShape method
+29. complete ShapeSorter sortShapes no parameters method
+30. complete ShapeSorter sortShapes w/ parameters method
+31. complete ShapeSorter toString method
+32. complete ShapeSorterTest SortShapesDefaultTest method
+33. complete ShapeSorterTest SortShapesAreaTest method
+34. complete ShapeSorterTest SortShapesPerimeterTest method
+35. complete ShapeSorterTest ToStringTest method
+36. complete ShapeTest NaturalCompareTest method
 
 Estimated Time (minutes):
 1. 10
@@ -59,6 +69,16 @@ Estimated Time (minutes):
 24. 3
 25. 3
 26. 2
+27. 3
+28. 5
+29. 1
+30. 5
+31. 2
+32. 7
+33. 5
+34. 8
+35. 7
+36. 5
 
 Actual Time (minutes):
 1. 10
@@ -87,5 +107,15 @@ Actual Time (minutes):
 24. 3
 25. 2
 26. 1
+27. 1
+28. 1
+29. 1
+30. 2
+31. 3
+32. 10
+33. 15
+34. 4
+35. 5
+36. 5
 
 */}
