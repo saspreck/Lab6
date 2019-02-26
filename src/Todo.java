@@ -27,6 +27,10 @@ Tasks:
 20. complete Rectangle getShapeType method
 21. complete Square constructor 
 22. complete Square getShapeType method
+23. complete ShapeAreaComparator compare method
+24. complete ShapeAreaComparator equals method
+25. complete ShapePerimeterComparator compare method
+26. complete ShapePerimeterComparator equals method
 
 Estimated Time (minutes):
 1. 10
@@ -51,6 +55,10 @@ Estimated Time (minutes):
 20. 1
 21. 3
 22. 1
+23. 10
+24. 3
+25. 3
+26. 2
 
 Actual Time (minutes):
 1. 10
@@ -75,5 +83,9 @@ Actual Time (minutes):
 20. 1
 21. 2
 22. 1
+23. 6
+24. 3
+25. 2
+26. 1
 
 */}

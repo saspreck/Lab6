@@ -97,21 +97,21 @@ public abstract class Shape implements Comparable<Shape>
 	{
 		// compares the area of the two shapes and return whether the first or second is larger
 		int count = 0;
-		if (getArea() > s.getArea()) {
+		if (this.getArea() > s.getArea()) {
 			count = 1;
 		}
-		else if (getArea() < s.getArea()) {
+		else if (this.getArea() < s.getArea()) {
 			count = -1;
 		}
 		// if shapes have equal areas the compare perimeters
-		else if (getArea() == s.getArea()) {
+		else if (this.getArea() == s.getArea()) {
 			if (getPerimeter() > s.getPerimeter()) {
 				count = 1;
 			}
-			else if (getPerimeter() < s.getPerimeter()) {
+			else if (this.getPerimeter() < s.getPerimeter()) {
 				count = -1;
 			}
-			else if (getPerimeter() == s.getPerimeter()) {
+			else if (this.getPerimeter() == s.getPerimeter()) {
 				count = 0;
 			}
 		}
