@@ -49,7 +49,7 @@ public class ShapeTest
 		Shape tri = new EquilateralTriangle("Triangle1", 5.0);
 		Assert.assertEquals("Triangle area incorrect.", 5.0 * 5.0 * Math.sqrt(3)/4, tri.getArea(), 0.01);
 		Assert.assertEquals("Triangle perimeter incorrect.", 15.0, tri.getPerimeter(), 0.0001);
-		Assert.assertEquals("Triangle type incorrect.", "Equilateral Triangle", tri.getShapeType());
+		Assert.assertEquals("Triangle type incorrect.", "EquilateralTriangle", tri.getShapeType());
 		Assert.assertEquals("Shape ID incorrect.", "Triangle1", tri.getId());
 	}
 
@@ -109,11 +109,11 @@ public class ShapeTest
 	public void ShapeToStringTest()
 	{
 		Shape sqr = new Square("Square1", 4.0);
-		Assert.assertEquals("Shape toString incorrect.", "Square\t ID = Square1\t area = 16.000\t perimeter = 16.000", 
+		Assert.assertEquals("Shape toString incorrect.", "Square:\t ID = Square1\t area = 16.000\t perimeter = 16.000", 
 				sqr.toString());
 		
 		Shape cir = new Circle("Circle1", 4.0);
-		Assert.assertEquals("Shape toString incorrect.", "Circle\t ID = Circle1\t area = 50.265\t perimeter = 25.133", 
+		Assert.assertEquals("Shape toString incorrect.", "Circle:\t ID = Circle1\t area = 50.265\t perimeter = 25.133", 
 				cir.toString());
 	}
 

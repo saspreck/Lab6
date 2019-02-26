@@ -130,8 +130,8 @@ public class ShapeSorterTest
 		sorter.addShape(sqr);
 		sorter.addShape(cir);
 		
-		Assert.assertEquals("Shape toString incorrect.", "Square\t ID = Square1\t area = 16.000\t perimeter = 16.000"
-				+ "Circle\t ID = Circle1\t area = 50.265\t perimeter = 25.133", 
+		Assert.assertEquals("Shape toString incorrect.", "Square:\t ID = Square1\t area = 16.000\t perimeter = 16.000"
+				+ "Circle:\t ID = Circle1\t area = 50.265\t perimeter = 25.133", 
 				sorter.toString());
 
 	}

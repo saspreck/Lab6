@@ -104,14 +104,14 @@ public abstract class Shape implements Comparable<Shape>
 			count = -1;
 		}
 		// if shapes have equal areas the compare perimeters
-		else if (this.getArea() == s.getArea()) {
+		else {
 			if (getPerimeter() > s.getPerimeter()) {
 				count = 1;
 			}
 			else if (this.getPerimeter() < s.getPerimeter()) {
 				count = -1;
 			}
-			else if (this.getPerimeter() == s.getPerimeter()) {
+			else {
 				count = 0;
 			}
 		}
@@ -149,6 +149,6 @@ public abstract class Shape implements Comparable<Shape>
 	@Override
 	public String toString()
 	{
-		return String.format("%s\t ID = %s\t area = %.3f\t perimeter = %.3f", getShapeType(), this.id, getArea(), getPerimeter());
+		return String.format("%s:\t ID = %s\t area = %.3f\t perimeter = %.3f", getShapeType(), this.id, getArea(), getPerimeter());
 	}
 }

@@ -47,6 +47,6 @@ public class EquilateralTriangle extends Polygon
 	@Override
 	public String getShapeType()
 	{
-		return "Equilateral Triangle";
+		return "EquilateralTriangle";
 	}
 }

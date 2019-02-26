@@ -40,7 +40,7 @@ public class Circle extends Ellipse
 	@Override
 	public double getPerimeter()
 	{
-		return 2 * Math.PI * getMinorAxis();
+		return 2 * Math.PI * ((getMinorAxis() + getMajorAxis()) / 2);
 	}
 
 	/**
